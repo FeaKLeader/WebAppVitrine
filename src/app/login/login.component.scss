@@ -1,0 +1,27 @@
+.page-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+}
+
+.login-card {
+  width: 400px !important;
+  padding: 20px !important;
+}
+
+.form-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+mat-form-field, button {
+  width: 100% !important;
+}
+
+.title {
+  color: white !important;
+  text-align: center !important;
+}
